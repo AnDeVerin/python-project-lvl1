@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "AnDeVerin_brain_games"
+version = "0.1.0"
+description = "Educational project # 1 (python developer) at Hexlet.io"
+authors = ["Andrey Vershinin <adw006@ya.ru>"]
+license = "MIT"
+packages = [
+  { include = "brain_games" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+autopep8 = "^1.5.4"
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
