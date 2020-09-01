@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "AnDeVerin_brain_games"
-version = "0.1.0"
+version = "0.1.1"
 description = "Educational project # 1 (python developer) at Hexlet.io"
 authors = ["Andrey Vershinin <adw006@ya.ru>"]
 license = "MIT"
@@ -10,6 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.3"
