@@ -3,5 +3,6 @@ __pycache__
 dist/
 *.pyc
 .venv/
+venv/
 .vscode/
 .idea/
