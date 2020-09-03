@@ -7,4 +7,7 @@ lint:
 run:
 	poetry run brain-games
 
-.PHONY: install lint run
+selfcheck:
+	poetry check
+
+.PHONY: install lint run selfcheck
