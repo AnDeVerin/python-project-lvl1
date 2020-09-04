@@ -6,6 +6,10 @@
 Educational project in Python # 1 @ Hexlet.io
 
 
-## Installation
+## Brain-even
 
 [![asciicast](https://asciinema.org/a/aIDCv1CnD6XpPrFAhOJuumPql.svg)](https://asciinema.org/a/aIDCv1CnD6XpPrFAhOJuumPql)
+
+## Brain-calc
+
+[![asciicast](https://asciinema.org/a/3ZHCS1CIiOSxWuJLxk0hD8lpo.svg)](https://asciinema.org/a/3ZHCS1CIiOSxWuJLxk0hD8lpo)

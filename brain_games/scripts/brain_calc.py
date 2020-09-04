@@ -1,4 +1,4 @@
-import brain_games.scripts.games.even as game
+import brain_games.scripts.games.calc as game
 from brain_games.scripts.game import start_game
 
 
