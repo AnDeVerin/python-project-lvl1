@@ -21,3 +21,7 @@ Educational project in Python # 1 @ Hexlet.io
 ## Brain-progression
 
 [![asciicast](https://asciinema.org/a/dYrYDgMUVJCFnEJatNFePU7es.svg)](https://asciinema.org/a/dYrYDgMUVJCFnEJatNFePU7es)
+
+## Brain-prime
+
+[![asciicast](https://asciinema.org/a/5s6SCNV78gWXN723z3BotCGu5.svg)](https://asciinema.org/a/5s6SCNV78gWXN723z3BotCGu5)
