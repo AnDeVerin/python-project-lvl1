@@ -5,7 +5,7 @@ import prompt
 COUNT = 3
 
 
-def ask_questions(get_question, count):
+def check_quiz(get_question, count):
     try_count = count
 
     while try_count:
@@ -36,7 +36,7 @@ def start_game(game=None):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!\n')
 
-    is_winner = ask_questions(game.get_question, COUNT)
+    is_winner = check_quiz(game.get_question, COUNT)
 
     if is_winner:
         print(f'Congratulations, {user_name}!')
