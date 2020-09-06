@@ -2,7 +2,7 @@ from random import randrange
 
 GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
-min_gcd = 2
+MIN_GCD = 2
 
 
 def get_gcd(a, b):
@@ -22,7 +22,7 @@ def get_gcd(a, b):
 def get_question():
     gcd = 0
 
-    while gcd < min_gcd:
+    while gcd < MIN_GCD:
         a = randrange(2, 101)
         b = randrange(2, 101)
         gcd = get_gcd(a, b)
