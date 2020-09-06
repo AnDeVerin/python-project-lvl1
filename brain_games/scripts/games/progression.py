@@ -2,20 +2,20 @@ from random import randrange
 
 GAME_DESCRIPTION = 'What number is missing in the progression?'
 
-progression_length = 10
-max_start = 10
-max_step = 10
+PROGRESSION_LENGTH = 10
+MAX_START = 10
+MAX_STEP = 10
 
 
 def get_question():
-    start = randrange(1, max_start)
-    step = randrange(1, max_step)
+    start = randrange(1, MAX_START)
+    step = randrange(1, MAX_STEP)
     progression = []
 
-    for item in range(start, start + progression_length * step, step):
+    for item in range(start, start + PROGRESSION_LENGTH * step, step):
         progression.append(str(item))
 
-    answer_index = randrange(progression_length)
+    answer_index = randrange(PROGRESSION_LENGTH)
     answer = progression[answer_index]
     progression[answer_index] = '...'
 

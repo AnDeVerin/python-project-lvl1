@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "AnDeVerin_brain_games"
-version = "0.6.0"
+version = "0.6.1"
 description = "Educational project # 1 (python developer) at Hexlet.io"
+classifiers = ["Topic :: Games/Entertainment :: Puzzle Games"]
 authors = ["Andrey Vershinin <adw006@ya.ru>"]
+repository = "https://github.com/AnDeVerin/python-project-lvl1"
 license = "MIT"
 packages = [
     { include = "brain_games" },
