@@ -12,11 +12,7 @@ def get_gcd(a, b):
     if b == 0:
         return a
 
-    if a > b:
-        return get_gcd(b, a % b)
-
-    else:
-        return get_gcd(a, b % a)
+    return get_gcd(b, a % b)
 
 
 def get_question():
@@ -25,7 +21,7 @@ def get_question():
     while gcd < MIN_GCD:
         a = randrange(2, 101)
         b = randrange(2, 101)
-        gcd = get_gcd(a, b)
+        gcd = get_gcd(a, b) if a > b else get_gcd(b, a)
 
     question = f'{a} {b}'
     answer = str(gcd)
