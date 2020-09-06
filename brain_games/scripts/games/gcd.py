@@ -20,14 +20,14 @@ def get_gcd(a, b):
 
 
 def get_question():
-    gcd = 0
+    a = b = gcd = 1
 
     while gcd < MIN_GCD:
         a = randrange(2, 101)
         b = randrange(2, 101)
         gcd = get_gcd(a, b)
 
-    question = f'Question: {a} {b}'
+    question = f'{a} {b}'
     answer = str(gcd)
 
     return question, answer

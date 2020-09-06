@@ -17,3 +17,7 @@ Educational project in Python # 1 @ Hexlet.io
 ## Brain-gcd
 
 [![asciicast](https://asciinema.org/a/hNmEjhFSTUhuloOdDzGQ35YZH.svg)](https://asciinema.org/a/hNmEjhFSTUhuloOdDzGQ35YZH)
+
+## Brain-progression
+
+[![asciicast](https://asciinema.org/a/dYrYDgMUVJCFnEJatNFePU7es.svg)](https://asciinema.org/a/dYrYDgMUVJCFnEJatNFePU7es)

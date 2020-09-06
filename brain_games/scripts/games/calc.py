@@ -15,7 +15,7 @@ def get_question():
     index = randrange(3)
     operation, calculate = OPERATIONS[index]
 
-    question = f'Question: {a} {operation} {b}'
+    question = f'{a} {operation} {b}'
     answer = str(calculate(a, b))
 
     return question, answer
