@@ -13,3 +13,7 @@ Educational project in Python # 1 @ Hexlet.io
 ## Brain-calc
 
 [![asciicast](https://asciinema.org/a/3ZHCS1CIiOSxWuJLxk0hD8lpo.svg)](https://asciinema.org/a/3ZHCS1CIiOSxWuJLxk0hD8lpo)
+
+## Brain-gcd
+
+[![asciicast](https://asciinema.org/a/hNmEjhFSTUhuloOdDzGQ35YZH.svg)](https://asciinema.org/a/hNmEjhFSTUhuloOdDzGQ35YZH)
