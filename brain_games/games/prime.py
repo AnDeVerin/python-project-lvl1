@@ -16,7 +16,7 @@ def is_prime(n):
     return True
 
 
-def get_question():
+def get_quiz():
     number = randrange(100)
     question = str(number)
     answer = 'yes' if is_prime(number) else 'no'

@@ -7,7 +7,7 @@ MAX_START = 10
 MAX_STEP = 10
 
 
-def get_question():
+def get_quiz():
     start = randrange(1, MAX_START)
     step = randrange(1, MAX_STEP)
     progression = []

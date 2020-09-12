@@ -9,10 +9,10 @@ OPERATIONS = [
 ]
 
 
-def get_question():
+def get_quiz():
     a = randrange(10)
     b = randrange(10)
-    index = randrange(3)
+    index = randrange(len(OPERATIONS))
     operation, calculate = OPERATIONS[index]
 
     question = f'{a} {operation} {b}'

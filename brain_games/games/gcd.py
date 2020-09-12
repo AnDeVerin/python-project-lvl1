@@ -15,7 +15,7 @@ def get_gcd(a, b):
     return get_gcd(b, a % b)
 
 
-def get_question():
+def get_quiz():
     a = b = gcd = 1
 
     while gcd < MIN_GCD:
