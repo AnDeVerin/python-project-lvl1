@@ -1,5 +1,5 @@
 import brain_games.games.calc as game
-from brain_games.games.engine import play
+from brain_games.engine.engine import play
 
 
 def main():

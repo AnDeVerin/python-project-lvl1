@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "AnDeVerin_brain_games"
-version = "0.6.1"
+version = "0.6.2"
 description = "Educational project # 1 (python developer) at Hexlet.io"
 classifiers = ["Topic :: Games/Entertainment :: Puzzle Games"]
 authors = ["Andrey Vershinin <adw006@ya.ru>"]

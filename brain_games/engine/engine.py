@@ -12,7 +12,6 @@ def play(game):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!\n')
 
-    is_winner = True
     try_count = ROUND_COUNTS
 
     while try_count:
@@ -27,10 +26,8 @@ def play(game):
         else:
             print(f"'{answer}' is wrong answer ;(.", end=' ')
             print(f"Correct answer was '{correct_answer}'.")
-            is_winner = False
-            break
 
-    if is_winner:
-        print(f'Congratulations, {user_name}!')
-    else:
-        print(f"Let's try again, {user_name}!")
+            print(f"Let's try again, {user_name}!")
+            return
+
+    print(f'Congratulations, {user_name}!')

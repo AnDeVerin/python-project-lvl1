@@ -1,11 +1,12 @@
 from random import randrange
+import operator
 
 GAME_DESCRIPTION = 'What is the result of the expression?'
 
 OPERATIONS = [
-    ('*', lambda a, b: a * b),
-    ('+', lambda a, b: a + b),
-    ('-', lambda a, b: a - b),
+    ('*', operator.mul),
+    ('+', operator.add),
+    ('-', operator.sub),
 ]
 
 
