@@ -2,7 +2,8 @@
 
 import prompt
 
-ROUND_COUNTS = 3
+# https://ru.hexlet.io/courses/python-lists/lessons/for-loop/theory_unit
+ROUNDS = 3
 
 
 def play(game):
@@ -12,9 +13,9 @@ def play(game):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!\n')
 
-    try_count = ROUND_COUNTS
+    tries = ROUNDS
 
-    while try_count:
+    while tries:
         question, correct_answer = game.get_quiz()
 
         print(f'Question: {question}')
@@ -22,7 +23,7 @@ def play(game):
 
         if answer == correct_answer:
             print('Correct!')
-            try_count -= 1
+            tries -= 1
         else:
             print(f"'{answer}' is wrong answer ;(.", end=' ')
             print(f"Correct answer was '{correct_answer}'.")

@@ -14,9 +14,9 @@ def get_quiz():
     a = randrange(10)
     b = randrange(10)
     index = randrange(len(OPERATIONS))
-    operation, calculate = OPERATIONS[index]
+    operator_symbol, operation = OPERATIONS[index]
 
-    question = f'{a} {operation} {b}'
-    answer = str(calculate(a, b))
+    question = f'{a} {operator_symbol} {b}'
+    answer = str(operation(a, b))
 
     return question, answer
